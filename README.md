@@ -42,5 +42,35 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Arkuda Therapeutics is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://forgeglobal.com/arkuda-therapeutics_stock/
+Arkuda Therapeutics, Inc. was a privately held, preclinical-stage biotechnology company based in
+Watertown, Massachusetts, founded in 2018 by Gerhard Koenig, Ph.D. and Duane Burnett to develop
+small-molecule enhancers of lysosomal function for neurodegenerative disease — targeting progranulin
+(GRN) and lysosomal dysfunction in frontotemporal dementia (FTD-GRN), Alzheimer's disease and
+Parkinson's disease. It closed a $44M Series A in November 2019 and a $64M Series B in February 2022,
+backed by Atlas Venture, Cormorant Asset Management, Pfizer Ventures, abrdn plc, Mission BioCapital
+and Eli Lilly and Company. On 9 January 2025, Johnson & Johnson exercised its option and acquired the
+entire portfolio of lysosomal function enhancers; independent operations concluded thereafter.
+
+## Why this profile has no API artifacts
+
+Arkuda was a therapeutics developer, not a software company — it never operated a developer program,
+public API, SDK, or machine-readable API contract. Both of its former domains have since lapsed and
+no longer serve the company:
+
+- `arkudatx.com` — now serves an unrelated Azerbaijani gambling SEO page (canonical:
+  `sapporosushikingston.com`). **Do not treat this domain as Arkuda's.**
+- `arkudatherapeutics.com` — a GoDaddy parking lander that returns HTTP 200 with byte-identical HTML
+  for every path, including `/.well-known/agent-card.json`. This is a soft-404, not an agent card.
+
+Contract discovery (OpenAPI at the API host root, GraphQL introspection, MCP `tools/list`, and the
+A2A agent card at both `/.well-known/agent-card.json` and `/.well-known/agent.json`) was run against
+every known host on 2026-08-06 and returned nothing. No artifacts were derived from these domains,
+because doing so would attribute third-party infrastructure to Arkuda.
+
+## References
+
+- [Website as archived 2025-03-27](https://web.archive.org/web/20250327032458/http://arkudatx.com/)
+- [Johnson & Johnson exercises option and acquires Arkuda portfolio (2025-01-09)](https://www.prnewswire.com/news-releases/arkuda-therapeutics-announces-option-exercise-and-asset-purchase-302346524.html)
+- [Johnson & Johnson Innovation — option and asset purchase agreement](https://jnjinnovation.com/news/press-releases/arkuda-therapeutics-announces-option-and-asset-purchase)
+- [Atlas Venture portfolio profile](https://atlasventure.com/company/arkuda-therapeutics/)
+- [LinkedIn](https://www.linkedin.com/company/arkudatx)
