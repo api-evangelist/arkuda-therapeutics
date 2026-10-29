@@ -64,35 +64,28 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Arkuda Therapeutics, Inc. was a privately held, preclinical-stage biotechnology company based in
-Watertown, Massachusetts, founded in 2018 by Gerhard Koenig, Ph.D. and Duane Burnett to develop
-small-molecule enhancers of lysosomal function for neurodegenerative disease — targeting progranulin
-(GRN) and lysosomal dysfunction in frontotemporal dementia (FTD-GRN), Alzheimer's disease and
-Parkinson's disease. It closed a $44M Series A in November 2019 and a $64M Series B in February 2022,
-backed by Atlas Venture, Cormorant Asset Management, Pfizer Ventures, abrdn plc, Mission BioCapital
-and Eli Lilly and Company. On 9 January 2025, Johnson & Johnson exercised its option and acquired the
-entire portfolio of lysosomal function enhancers; independent operations concluded thereafter.
+Arkuda Therapeutics, Inc. was a privately held, preclinical-stage biotechnology company based in Watertown, Massachusetts, founded in 2018 by Gerhard Koenig, Ph.D. and Duane Burnett to develop small-molecule enhancers of lysosomal function for neurodegenerative disease. Its lead biology targeted progranulin (GRN) and lysosomal dysfunction in frontotemporal dementia (FTD-GRN), Alzheimer's disease and Parkinson's disease. Arkuda closed a $44M Series A in November 2019 and a $64M Series B in February 2022, backed by Atlas Venture, Cormorant Asset Management, Pfizer Ventures, abrdn plc, Mission BioCapital and Eli Lilly and Company. On 27 February 2024 it entered an option and asset purchase agreement with Johnson & Johnson, and on 9 January 2025 Johnson & Johnson (through Janssen Pharmaceuticals) exercised that option and acquired the entire portfolio of lysosomal function enhancers. Independent operations concluded thereafter; founder and CEO Gerhard Koenig became CEO of Augustine Therapeutics in January 2025. Arkuda was a therapeutics developer, not a software company: it never operated a developer program, public API, SDK or machine-readable API contract, and both of its former domains have since lapsed.
 
-## Why this profile has no API artifacts
+**Areas:** Company · Biotechnology · Pharmaceuticals · Life Sciences · Drug Discovery · Neurodegenerative Disease · Therapeutics · Acquired
 
-Arkuda was a therapeutics developer, not a software company — it never operated a developer program,
-public API, SDK, or machine-readable API contract. Both of its former domains have since lapsed and
-no longer serve the company:
+## Arkuda Therapeutics on APIs.io
 
-- `arkudatx.com` — now serves an unrelated Azerbaijani gambling SEO page (canonical:
-  `sapporosushikingston.com`). **Do not treat this domain as Arkuda's.**
-- `arkudatherapeutics.com` — a GoDaddy parking lander that returns HTTP 200 with byte-identical HTML
-  for every path, including `/.well-known/agent-card.json`. This is a soft-404, not an agent card.
+Everything profiled for Arkuda Therapeutics is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/arkuda-therapeutics/](https://apis.io/providers/arkuda-therapeutics/)** — or go straight to one of the APIs or properties below.
 
-Contract discovery (OpenAPI at the API host root, GraphQL introspection, MCP `tools/list`, and the
-A2A agent card at both `/.well-known/agent-card.json` and `/.well-known/agent.json`) was run against
-every known host on 2026-08-06 and returned nothing. No artifacts were derived from these domains,
-because doing so would attribute third-party infrastructure to Arkuda.
+## API Evangelist rating
 
-## References
+**Unrated** — no public website could be reached for this company, so there was almost nothing to measure and nothing a reader could check.
 
-- [Website as archived 2025-03-27](https://web.archive.org/web/20250327032458/http://arkudatx.com/)
-- [Johnson & Johnson exercises option and acquires Arkuda portfolio (2025-01-09)](https://www.prnewswire.com/news-releases/arkuda-therapeutics-announces-option-exercise-and-asset-purchase-302346524.html)
-- [Johnson & Johnson Innovation — option and asset purchase agreement](https://jnjinnovation.com/news/press-releases/arkuda-therapeutics-announces-option-and-asset-purchase)
-- [Atlas Venture portfolio profile](https://atlasventure.com/company/arkuda-therapeutics/)
-- [LinkedIn](https://www.linkedin.com/company/arkudatx)
+This is not a score of zero. No rating is published for this company. If that is wrong because something public exists that we missed, say so on this repository or email [info@apievangelist.com](mailto:info@apievangelist.com) and it will be re-run — free, and no justification needed.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Arkuda Therapeutics: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/arkuda-therapeutics/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
